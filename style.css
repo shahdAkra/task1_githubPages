@@ -1,0 +1,80 @@
+body{
+    background-color: #f458b2;
+    height: 100%;
+    width: 100%;
+    font-family:'Open Sans', sans-serif;
+    height: 30vh;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #fffef6;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    margin-left: 14vh;
+    margin-right: 14vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    height: 70vh;
+}
+
+#firstBlock{
+    margin-left: 5rem;
+}
+
+#textArea{
+    border-style: dotted;
+    border-color: #A9A9A9;
+    width: 15rem;
+    height: 2rem;
+    text-align-last: left;
+    background: url(./images/arrow.PNG);
+    background-repeat: no-repeat;
+    padding-left: 1rem;
+    background-position: right;
+}
+
+#button{
+    color: #fffef6;
+    background-color: #f458b2;
+    border-radius: 1rem;
+    width: 7rem;
+    height: 1.8rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-weight: bolder;
+    cursor: pointer;
+    border-style: unset;
+}
+
+#p{
+    font-size: 0.78rem;
+    background-color: #fffef6;
+}
+
+#h{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#div{
+    display: flex;
+    flex-direction: column;
+}
+
+#icon{
+    margin-top: 2rem;
+    block-size: 10vh;
+    margin-left: -0.5rem;
+    max-width: 100%;
+}
+
+#pic{
+    margin-left: 4rem;
+    margin-right: 0.5rem;
+    block-size: 40vh;
+    max-width: 100%;
+}
